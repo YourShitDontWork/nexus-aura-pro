@@ -25,8 +25,8 @@ export const Hero = () => {
 
       {/* title */}
       <h1 className="relative z-10 text-center font-black text-6xl md:text-8xl lg:text-9xl leading-none mb-6 hover:animate-glitch cursor-default">
-        <span className="block text-glow text-primary">EXO</span>
-        <span className="block text-glow-purple text-secondary -mt-2 md:-mt-4">THERMIC</span>
+        <span className="block text-glow text-primary">SURVIVAL</span>
+        <span className="block text-glow-purple text-secondary -mt-2 md:-mt-4">HUB</span>
       </h1>
 
       <p className="relative z-10 max-w-2xl text-center text-lg md:text-xl text-muted-foreground mb-10 px-4">
