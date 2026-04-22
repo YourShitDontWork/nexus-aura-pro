@@ -33,7 +33,7 @@ export const Hero = () => {
 
       <div className="relative z-10 flex flex-col sm:flex-row gap-4 mb-16">
         <Button variant="neon" size="xl" asChild>
-          <a href="#cta">
+          <a href="https://discord.gg/vXsNrF9V" target="_blank" rel="noreferrer">
             <Zap className="w-5 h-5" />
             Get The Script
           </a>
