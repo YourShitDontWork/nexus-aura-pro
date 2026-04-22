@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Zap, Shield, Cpu } from "lucide-react";
 
 export const Hero = () => {
+  const scrollToFeatures = () => {
+    document.getElementById("features")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 grid-pattern overflow-hidden">
       {/* glow orbs */}
@@ -38,8 +42,8 @@ export const Hero = () => {
             Get The Script
           </a>
         </Button>
-        <Button variant="outlineNeon" size="xl" asChild>
-          <a href="#features">View Features</a>
+        <Button variant="outlineNeon" size="xl" onClick={scrollToFeatures}>
+          View Features
         </Button>
       </div>
 
