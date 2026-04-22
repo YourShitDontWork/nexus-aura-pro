@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MessageSquare } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const CTASection = () => {
   return (
@@ -21,17 +21,11 @@ export const CTASection = () => {
               Lifetime support from <span className="text-primary font-semibold">@exothermic</span>.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <div className="flex justify-center mb-8">
               <Button variant="neon" size="xl" asChild>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Buy Key
+                <a href="https://discord.gg/vXsNrF9V" target="_blank" rel="noreferrer">
+                  Get The Script
                   <ArrowRight className="w-5 h-5" />
-                </a>
-              </Button>
-              <Button variant="outlineNeon" size="xl" asChild>
-                <a href="#" target="_blank" rel="noreferrer">
-                  <MessageSquare className="w-5 h-5" />
-                  Join Discord
                 </a>
               </Button>
             </div>
